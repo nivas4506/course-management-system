@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24in" height="36in" viewBox="0 0 1200 1800" role="img" aria-labelledby="title desc">
+ <title id="title">FeatherOS: Linux-based standalone AI-native operating system vision</title>
+ <desc id="desc">A project poster comparing the current cross-platform agentic shell prototype with the long-term goal of a bootable system built on the Linux kernel and FeatherOS AI architecture.</desc>
+ <defs>
+  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#f7f9fc"/></linearGradient>
+  <linearGradient id="accent" x2="1"><stop stop-color="#174ea6"/><stop offset="1" stop-color="#4385e8"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#315f9e" stroke-opacity=".035"/></pattern>
+  <style>
+   text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.muted{fill:#3f4b5b}.mint{fill:#205eb1}.cyan{fill:#205eb1}.amber{fill:#205eb1}.coral{fill:#205eb1}
+   .eyebrow{font-size:17px;font-weight:bold;letter-spacing:3px;fill:#205eb1}.title{font-size:82px;font-weight:bold;letter-spacing:-1.5px}.subtitle{font-size:29px;font-weight:bold}
+   .section{font-size:26px;font-weight:bold;letter-spacing:1px}.head{font-size:21px;font-weight:bold}.body{font-size:18px}.small{font-size:16px}.tiny{font-size:14px}
+   .panel{fill:#ffffff;stroke:#b8cbe3;stroke-width:1.5}.soft{fill:#f4f7fb;stroke:#b8cbe3;stroke-width:1.4}.rule{stroke:#b8cbe3;stroke-width:1}
+  </style>
+ </defs>
+ <rect width="1200" height="1800" fill="url(#bg)"/><rect width="1200" height="1800" fill="url(#grid)"/>
+ <circle cx="1070" cy="105" r="180" fill="#dceaff" opacity=".5"/>
+
+ <!-- Title -->
+ <g transform="translate(64 48)">
+  <path d="M31 3C11 37 8 65 16 88c9-22 24-38 46-51-5 21-19 42-39 58 24-4 43-23 52-48C85 26 65 9 31 3Z" fill="url(#accent)"/>
+  <text x="112" y="25" class="eyebrow">CROSS-PLATFORM • AI-NATIVE • RUST</text>
+  <text x="108" y="107" class="title">FeatherOS</text>
+  <text x="112" y="151" class="subtitle">Toward a Bootable Linux OS with a Full Desktop Environment</text>
+  <text x="112" y="187" class="body muted">Current prototype: agentic shell • Long-term goal: complete AI-native desktop OS</text>
+ </g>
+ <rect x="64" y="260" width="1072" height="2" fill="url(#accent)"/>
+ <text x="64" y="292" class="small muted">Bokkisam Venkata Sai Nivas  •  CSE Student</text>
+ <text x="1136" y="292" text-anchor="end" class="small cyan">PROJECT: github.com/nivas4506/FeatherOS</text>
+ <text x="64" y="313" class="small muted">Department of Computer Science and Engineering  •  Koneru Lakshmaiah Education Foundation, Vaddeswaram, Andhra Pradesh, India</text>
+
+ <!-- Context -->
+ <rect x="64" y="318" width="1072" height="132" rx="15" fill="#edf4ff" stroke="#7da4d9" stroke-width="1.5"/>
+ <text x="88" y="351" class="eyebrow">THE PROBLEM</text>
+ <text x="88" y="382" class="body">AI agents can plan and use tools, but system actions still need context, boundaries, and human oversight.</text>
+ <text x="88" y="414" class="body"><tspan class="mint" font-weight="bold">NOW:</tspan><tspan> shell on existing OSes.  </tspan><tspan class="cyan" font-weight="bold">GOAL:</tspan><tspan> bootable Linux OS + full desktop + FeatherOS AI.</tspan></text>
+ <text x="88" y="438" class="small muted">A complete system in the class of Fedora / Ubuntu, with FeatherOS's own AI-native desktop experience.</text>
+
+ <!-- Combined current and target architecture -->
+ <text x="64" y="499" class="section">01  ARCHITECTURE: CURRENT SHELL → FULL DESKTOP OS GOAL</text>
+ <rect x="64" y="519" width="514" height="370" rx="14" class="panel"/>
+ <text x="88" y="552" class="head blueText">NOW • CROSS-PLATFORM PROTOTYPE</text>
+ <text x="88" y="577" class="small muted">User-space shell running on an existing operating system</text>
+ <rect x="88" y="596" width="466" height="43" rx="8" class="soft"/>
+ <text x="104" y="624" class="small"><tspan font-weight="bold">INTERFACE</tspan><tspan> • aish • commands + natural-language intent</tspan></text>
+ <path d="M321 640v7" stroke="#2868bb" stroke-width="2"/><path d="m316 644 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="88" y="650" width="466" height="43" rx="8" fill="#eaf2ff" stroke="#2868bb"/>
+ <text x="104" y="678" class="small"><tspan font-weight="bold">COGNITION + MCP</tspan><tspan> • cortex-core + agent-bus</tspan></text>
+ <path d="M321 694v7" stroke="#2868bb" stroke-width="2"/><path d="m316 698 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="88" y="704" width="466" height="43" rx="8" class="soft"/>
+ <text x="104" y="732" class="small"><tspan font-weight="bold">MEMORY</tspan><tspan> • synapsed • workspace index + journal</tspan></text>
+ <path d="M321 748v7" stroke="#2868bb" stroke-width="2"/><path d="m316 752 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="88" y="758" width="466" height="43" rx="8" fill="#eaf2ff" stroke="#2868bb"/>
+ <text x="104" y="786" class="small"><tspan font-weight="bold">SAFETY</tspan><tspan> • aegis-exec • assess, confirm, block</tspan></text>
+ <path d="M321 802v7" stroke="#2868bb" stroke-width="2"/><path d="m316 806 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="88" y="812" width="466" height="43" rx="8" fill="#edf3fb" stroke="#9aabc0"/>
+ <text x="104" y="840" class="small"><tspan font-weight="bold">HOST OS</tspan><tspan> • Linux / macOS / Windows</tspan></text>
+ <text x="88" y="878" class="tiny muted">This prototype does not yet boot independently.</text>
+
+ <rect x="600" y="519" width="536" height="370" rx="14" fill="#f4f8ff" stroke="#2868bb" stroke-width="2"/>
+ <text x="624" y="552" class="head blueText">LONG-TERM • FEATHEROS DESKTOP OS</text>
+ <text x="624" y="577" class="small muted">Bootable Linux OS • full desktop • integrated FeatherOS AI</text>
+ <rect x="624" y="596" width="488" height="37" rx="8" fill="#ffffff" stroke="#9eb6d3"/>
+ <text x="640" y="621" class="small"><tspan font-weight="bold">1  BOOT + INSTALL</tspan><tspan> • bootloader + system image</tspan></text>
+ <path d="M868 634v5" stroke="#2868bb" stroke-width="2"/><path d="m863 637 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="624" y="642" width="488" height="43" rx="8" fill="#dceaff" stroke="#205eb1" stroke-width="2"/>
+ <text x="640" y="670" class="small"><tspan font-weight="bold">2  LINUX KERNEL</tspan><tspan> • processes, memory, drivers, I/O</tspan></text>
+ <path d="M868 686v5" stroke="#2868bb" stroke-width="2"/><path d="m863 689 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="624" y="694" width="488" height="37" rx="8" fill="#ffffff" stroke="#9eb6d3"/>
+ <text x="640" y="719" class="small"><tspan font-weight="bold">3  CORE OS</tspan><tspan> • services, software + updates, hardware support</tspan></text>
+ <path d="M868 732v5" stroke="#2868bb" stroke-width="2"/><path d="m863 735 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="624" y="740" width="488" height="43" rx="8" fill="#eaf2ff" stroke="#2868bb"/>
+ <text x="640" y="758" class="tiny" font-weight="bold">4  FULL DESKTOP ENVIRONMENT</text>
+ <text x="640" y="776" class="tiny">Windows • launcher • file manager • settings</text>
+ <path d="M868 784v5" stroke="#2868bb" stroke-width="2"/><path d="m863 787 5 6 5-6" fill="none" stroke="#2868bb" stroke-width="2"/>
+ <rect x="624" y="792" width="488" height="43" rx="8" fill="#dceaff" stroke="#205eb1" stroke-width="2"/>
+ <text x="640" y="807" class="tiny" font-weight="bold">5  FEATHEROS AI ARCHITECTURE</text>
+ <text x="640" y="827" class="tiny">cortex-core • synapsed • agent-bus / MCP • aegis-exec</text>
+ <text x="624" y="864" class="tiny muted">Future target • kernel-based boot, desktop, drivers, and AI integration.</text>
+
+ <!-- Method & implementation -->
+ <text x="64" y="930" class="section">02  METHOD &amp; IMPLEMENTATION</text>
+ <text x="64" y="957" class="small muted">A task passes through five observable stages:</text>
+ <g text-anchor="middle">
+  <rect x="64" y="974" width="196" height="104" rx="12" class="panel"/><text x="162" y="1006" class="head mint">1  INPUT</text><text x="162" y="1034" class="small">Shell command or</text><text x="162" y="1057" class="small">natural-language goal</text>
+  <path d="M263 1026h20" stroke="#2868bb" stroke-width="2"/><path d="m277 1020 7 6-7 6" fill="none" stroke="#2868bb" stroke-width="2"/>
+  <rect x="288" y="974" width="196" height="104" rx="12" class="panel"/><text x="386" y="1006" class="head cyan">2  CLASSIFY</text><text x="386" y="1034" class="small">POSIX / PowerShell</text><text x="386" y="1057" class="small">or user intent</text>
+  <path d="M487 1026h20" stroke="#2868bb" stroke-width="2"/><path d="m501 1020 7 6-7 6" fill="none" stroke="#2868bb" stroke-width="2"/>
+  <rect x="512" y="974" width="196" height="104" rx="12" class="panel"/><text x="610" y="1006" class="head cyan">3  PLAN</text><text x="610" y="1034" class="small">Context + memory</text><text x="610" y="1057" class="small">+ MCP tools</text>
+  <path d="M711 1026h20" stroke="#2868bb" stroke-width="2"/><path d="m725 1020 7 6-7 6" fill="none" stroke="#2868bb" stroke-width="2"/>
+  <rect x="736" y="974" width="196" height="104" rx="12" class="panel"/><text x="834" y="1006" class="head amber">4  GUARD</text><text x="834" y="1034" class="small">Risk check, diff</text><text x="834" y="1057" class="small">preview, approval</text>
+  <path d="M935 1026h20" stroke="#2868bb" stroke-width="2"/><path d="m949 1020 7 6-7 6" fill="none" stroke="#2868bb" stroke-width="2"/>
+  <rect x="960" y="974" width="176" height="104" rx="12" class="panel"/><text x="1048" y="1006" class="head mint">5  EXECUTE</text><text x="1048" y="1034" class="small">Run + report</text><text x="1048" y="1057" class="small">observable outcome</text>
+ </g>
+ <text x="64" y="1120" class="small"><tspan class="mint" font-weight="bold">Memory:</tspan><tspan> recursive file index + shell/log index + persistent journal + recency-aware similarity search.</tspan></text>
+ <text x="64" y="1147" class="small"><tspan class="cyan" font-weight="bold">Providers:</tspan><tspan> offline heuristics • local Ollama • OpenAI-compatible backend.</tspan></text>
+
+ <!-- Capabilities and safety -->
+ <text x="64" y="1208" class="section">03  CAPABILITIES &amp; SAFETY</text>
+ <rect x="64" y="1226" width="514" height="229" rx="14" class="panel"/>
+ <text x="88" y="1262" class="head mint">IMPLEMENTED CAPABILITY MAP</text>
+ <text x="88" y="1297" class="body">✓  Direct shell execution + dynamic telemetry</text>
+ <text x="88" y="1328" class="body">✓  Natural-language task classification</text>
+ <text x="88" y="1359" class="body">✓  Persistent semantic memory + workspace index</text>
+ <text x="88" y="1390" class="body">✓  MCP tools with JSON-schema descriptors</text>
+ <text x="88" y="1421" class="body">✓  Confirmation flow + sandbox abstraction</text>
+ <rect x="600" y="1226" width="536" height="229" rx="14" class="panel"/>
+ <text x="624" y="1262" class="head">AEGIS RISK POLICY</text>
+ <text x="624" y="1297" class="body"><tspan class="mint" font-weight="bold">SAFE</tspan><tspan>  Auto-run • ls, git status</tspan></text>
+ <text x="624" y="1328" class="body"><tspan class="cyan" font-weight="bold">MODERATE</tspan><tspan>  Non-destructive writes • review</tspan></text>
+ <text x="624" y="1359" class="body"><tspan class="amber" font-weight="bold">HIGH</tspan><tspan>  Mutative operation • explicit confirm</tspan></text>
+ <text x="624" y="1390" class="body"><tspan class="coral" font-weight="bold">CRITICAL</tspan><tspan>  Destructive pattern • block</tspan></text>
+ <text x="624" y="1421" class="small muted">Example: rm -rf / is blocked; Windows deletion patterns guarded.</text>
+
+ <!-- Platforms and outcomes -->
+ <text x="64" y="1510" class="section">04  PLATFORM FRAMEWORK &amp; NEXT MILESTONES</text>
+ <rect x="64" y="1528" width="514" height="164" rx="14" class="panel"/>
+ <text x="88" y="1564" class="head cyan">NATIVE PLATFORM ADAPTATION</text>
+ <text x="88" y="1598" class="body"><tspan class="mint" font-weight="bold">LINUX</tspan><tspan>  $SHELL / sh • Namespaces / Bubblewrap</tspan></text>
+ <text x="88" y="1630" class="body"><tspan class="cyan" font-weight="bold">macOS</tspan><tspan>  zsh • Seatbelt • sw_vers / sysctl</tspan></text>
+ <text x="88" y="1662" class="body"><tspan class="amber" font-weight="bold">WINDOWS</tspan><tspan>  PowerShell • Job objects</tspan></text>
+ <rect x="600" y="1528" width="536" height="164" rx="14" class="panel"/>
+ <text x="624" y="1564" class="head amber">LONG-TERM: COMPLETE DESKTOP OS</text>
+ <text x="624" y="1598" class="body">Build a bootable system on the Linux kernel</text>
+ <text x="624" y="1630" class="body">Add drivers, OS services, software + updates</text>
+ <text x="624" y="1662" class="body">Integrate a full desktop and FeatherOS AI</text>
+ <text x="624" y="1684" class="tiny muted">These are future stages; the current shell is not bootable.</text>
+
+ <!-- conclusion and access -->
+ <rect x="64" y="1710" width="1072" height="62" rx="13" fill="#eaf2ff" stroke="#2868bb" stroke-width="1.5"/>
+ <text x="88" y="1738" class="head mint">TAKEAWAY</text>
+ <text x="250" y="1738" class="body">FeatherOS starts as an inspectable agentic shell and aims to grow</text>
+ <text x="250" y="1762" class="body">into a bootable Linux OS with a full desktop and integrated AI.</text>
+ <text x="64" y="1794" class="small muted">Rust 1.80+  •  MIT License  •  github.com/nivas4506/FeatherOS  •  Open the repository for source, setup, and project details</text>
+</svg>
